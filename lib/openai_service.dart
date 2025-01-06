@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class OpenAIService {
-  static const String _baseUrl = "http://127.0.0.1:5001/chat"; // Replace with your backend URL
+  static const String _baseUrl = "http://127.0.0.1:5005/chat"; // Replace with your backend URL
 
   Future<String> sendMessage(String message) async {
     try {
