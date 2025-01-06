@@ -1,4 +1,4 @@
-import 'package:fir_n_flow/strength_training.dart';
+import 'package:FitBuddy/strength_training.dart';
 import 'package:flutter/material.dart';
 import 'cardio_page.dart';
 import 'hiit_page.dart';
@@ -20,7 +20,7 @@ class WorkoutPage extends StatelessWidget {
             ),
         ),
         ),
-        backgroundColor: Color.fromARGB(255, 77, 0, 80),
+        backgroundColor: Color.fromARGB(255, 233, 0, 116),
      ),
       body: Container(
          color: Colors.black, // Set the background of the body to black
@@ -30,7 +30,7 @@ class WorkoutPage extends StatelessWidget {
           children: <Widget>[
              SizedBox(height: 150),
             Text(
-              'Select an Option',
+              'CHOOSE WORKOUT',
               style: TextStyle(fontSize: 24,
               color: Colors.white
               ),
@@ -54,7 +54,9 @@ class WorkoutPage extends StatelessWidget {
                   backgroundColor: Colors.white, // Set button background to white
                   foregroundColor: Colors.black, 
                   padding: EdgeInsets.symmetric(horizontal: 40, vertical: 20),
-                ),
+                ).copyWith(
+                overlayColor: MaterialStateProperty.all(const Color.fromARGB(255, 233, 0, 116).withOpacity(1)),
+              ),
             ),
             SizedBox(height: 30),
             ElevatedButton(
@@ -75,7 +77,9 @@ class WorkoutPage extends StatelessWidget {
                   backgroundColor: Colors.white, // Set button background to white
                   foregroundColor: Colors.black, // Set button text color to black
                   padding: EdgeInsets.symmetric(horizontal: 40, vertical: 20),
-                ),
+                ).copyWith(
+                overlayColor: MaterialStateProperty.all(const Color.fromARGB(255, 233, 0, 116).withOpacity(1)),
+              ),
             ),
             SizedBox(height: 30),
             ElevatedButton(
@@ -96,7 +100,9 @@ class WorkoutPage extends StatelessWidget {
                   backgroundColor: Colors.white, // Set button background to white
                   foregroundColor: Colors.black, // Set button text color to black
                   padding: EdgeInsets.symmetric(horizontal: 40, vertical: 20),
-                ),
+                ).copyWith(
+                overlayColor: MaterialStateProperty.all(const Color.fromARGB(255, 233, 0, 116).withOpacity(1)),
+              ),
             ),
             SizedBox(height: 30),
             ElevatedButton(
@@ -117,7 +123,9 @@ class WorkoutPage extends StatelessWidget {
                   backgroundColor: Colors.white, // Set button background to white
                   foregroundColor: Colors.black, // Set button text color to black
                   padding: EdgeInsets.symmetric(horizontal: 40, vertical: 20),
-                ),
+                ).copyWith(
+                overlayColor: MaterialStateProperty.all(const Color.fromARGB(255, 233, 0, 116).withOpacity(1)),
+              ),
             ),
           ],
         ),

@@ -1,6 +1,6 @@
 {
-    "name": "fir_n_flow",
-    "short_name": "fir_n_flow",
+    "name": "FitBuddy",
+    "short_name": "FitBuddy",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

@@ -1,4 +1,4 @@
-package com.example.fir_n_flow
+package com.example.FitBuddy
 
 import io.flutter.embedding.android.FlutterActivity
 

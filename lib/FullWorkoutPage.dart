@@ -35,7 +35,7 @@ class _FullWorkoutPageState extends State<FullWorkoutPage> {
   Future<void> executeExercises() async {
     try {
       // Start Jumping Jacks
-      var response = await http.get(Uri.parse('http:// 10.61.2.77:5001/jumpingjacks'));
+      var response = await http.get(Uri.parse('http://10.61.2.77:5001/jumpingjacks'));
       if (response.statusCode == 200) {
         print("Jumping Jacks started: ${response.body}");
         // Wait for Jumping Jacks to complete
@@ -45,7 +45,7 @@ class _FullWorkoutPageState extends State<FullWorkoutPage> {
       }
 
       // Start Pushups
-      response = await http.get(Uri.parse('http:// 10.61.2.77:5001/pushups'));
+      response = await http.get(Uri.parse('http://10.61.2.77:5001/pushups'));
       if (response.statusCode == 200) {
         print("Pushups started: ${response.body}");
         // Optionally wait for Pushups to complete
@@ -55,7 +55,7 @@ class _FullWorkoutPageState extends State<FullWorkoutPage> {
       }
 
       // Start Squats
-      response = await http.get(Uri.parse('http:// 10.61.2.77:5001/squats'));
+      response = await http.get(Uri.parse('http://10.61.2.77:5001/squats'));
       if (response.statusCode == 200) {
         print("Squats started: ${response.body}");
         // Wait for Squats to complete
@@ -83,7 +83,7 @@ class _FullWorkoutPageState extends State<FullWorkoutPage> {
             ),
         ),
       ),
-        backgroundColor: Color.fromARGB(255, 77, 0, 80),// AppBar background set to black
+        backgroundColor: Color.fromARGB(255, 233, 0, 116),// AppBar background set to black
       ),
       body: Container(
         color: Colors.black, // Set background to black

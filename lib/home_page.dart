@@ -32,7 +32,7 @@
 //                 color: Colors.black.withOpacity(0.5), // Semi-transparent background
 //               ),
 //               child: Text(
-//                 'Welcome to FitNFlow',
+//                 'Welcome to FitBuddy',
 //               style: TextStyle( // Use default text style
 //                   fontSize: 28,
 //                   color: Colors.white,

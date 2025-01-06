@@ -7,12 +7,12 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:fir_n_flow/main.dart';
+import 'package:FitBuddy/main.dart';
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
-    await tester.pumpWidget(FitnFlowApp());
+    await tester.pumpWidget(FitBuddyApp());
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

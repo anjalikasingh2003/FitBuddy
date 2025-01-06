@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="fir_n_flow"
+        android:label="FitBuddy"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

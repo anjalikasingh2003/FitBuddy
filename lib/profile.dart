@@ -32,9 +32,9 @@ class ProfiScreen extends StatelessWidget {
                 color: Colors.black.withOpacity(0.5), // Semi-transparent background
               ),
               child: Text(
-                'WELCOME TO FITNFLOW',
+                'WELCOME TO FITBUDDY',
                 style: Theme.of(context).textTheme.displaySmall?.copyWith(
-                  color: Colors.white, // White text color for visibility
+                  color: Color.fromARGB(255, 216, 159, 253).withOpacity(1), // White text color for visibility
                   fontWeight: FontWeight.bold,
                   fontSize: 24,
                   letterSpacing: 3.5,
@@ -60,7 +60,7 @@ class ProfiScreen extends StatelessWidget {
                   side: const BorderSide(color: Colors.transparent),
                 ),
               ).copyWith(
-                overlayColor: MaterialStateProperty.all(const Color.fromARGB(255, 105, 55, 107).withOpacity(1)),
+                overlayColor: MaterialStateProperty.all(const Color.fromARGB(255, 233, 0, 116).withOpacity(1)),
               ),
               child: const Text(
                 'WORKOUT',
@@ -91,7 +91,7 @@ class ProfiScreen extends StatelessWidget {
                   side: const BorderSide(color: Colors.transparent),
                 ),
               ).copyWith(
-                overlayColor: MaterialStateProperty.all(const Color.fromARGB(255, 105, 55, 107).withOpacity(1)),
+                overlayColor: MaterialStateProperty.all(const Color.fromARGB(255, 233, 0, 116).withOpacity(1)),
               ),
               child: const Text(
                 'YOGA',

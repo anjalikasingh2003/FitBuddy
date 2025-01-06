@@ -1,4 +1,4 @@
-# Fit N Flow
+# FitBuddy
 
 ## Project description
 A fitness app that provides user with personalized workout selection, and offers the flexibility to choose between workouts and yoga sessions, while accurately counting your exercise repetitions and timing your poses in real time. <br/>

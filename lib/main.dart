@@ -10,15 +10,15 @@ void main() async {
  await Firebase.initializeApp(
    options: DefaultFirebaseOptions.currentPlatform,
  );
-  // runApp(FitnFlowApp());
+  // runApp(FitBuddyApp());
   runApp(const MyApp());
 }
 
-// class FitnFlowApp extends StatelessWidget {
+// class FitBuddyApp extends StatelessWidget {
 //   @override
 //   Widget build(BuildContext context) {
 //     return MaterialApp(
-//       title: 'FitNFlow',
+//       title: 'FitBuddy',
 //       theme: ThemeData(
 //         primarySwatch: Colors.teal, // Use a more fitness-oriented primary color
 //         brightness: Brightness.dark, // Set dark theme for background

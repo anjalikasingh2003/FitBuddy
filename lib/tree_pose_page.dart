@@ -19,7 +19,7 @@ class TreePosePage extends StatelessWidget {
             ),
         ),
       ),
-        backgroundColor: Color.fromARGB(255, 77, 0, 80), // Set AppBar background to black
+        backgroundColor: Color.fromARGB(255, 233, 0, 116), // Set AppBar background to black
       ),
       body: Container(
          color: Colors.black, 
