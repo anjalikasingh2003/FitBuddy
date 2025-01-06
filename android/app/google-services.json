@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1013360504179",
+    "project_id": "fitflow-3bc6b",
+    "storage_bucket": "fitflow-3bc6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1013360504179:android:c1f34e3236da87ceec2906",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDhbZpYDIIJVXoBIMahbX4xOfS_xVVKomQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
