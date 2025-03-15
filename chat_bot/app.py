@@ -2,6 +2,9 @@ from flask import Flask, request, jsonify
 import os
 from openai import AzureOpenAI
 from flask_cors import CORS
+from dotenv import load_dotenv
+
+load_dotenv()
 
 app = Flask(__name__)
 CORS(app)
@@ -9,7 +12,10 @@ CORS(app)
 # Azure OpenAI Setup
 endpoint = os.getenv("ENDPOINT_URL", "https://anjal-m5jnfaz4-eastus2.openai.azure.com/")
 deployment = os.getenv("DEPLOYMENT_NAME", "gpt-4")
-subscription_key = os.getenv("AZURE_OPENAI_API_KEY", "5tVSLcXinqEakDXqXUizhvCzEWNbPHJpDWpYsovquVhaB9zQBt5VJQQJ99BAACHYHv6XJ3w3AAAAACOGMYyG")
+subscription_key = os.getenv("AZURE_OPENAI_API_KEY")
+if not subscription_key:
+    raise ValueError("AZURE_OPENAI_API_KEY is missing. Check your .env file!")
+
 
 client = AzureOpenAI(
     azure_endpoint=endpoint,
